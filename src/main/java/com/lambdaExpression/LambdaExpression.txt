@@ -1,0 +1,10 @@
+Lambda Expression
+------------------
+LE are used to instances the Functional Interfcaes.
+
+Syntax:
+
+  School sc =
+      (int x)  /*  Argument List */
+        ->     /*  Arrow List */
+      { System.out.println("School name is ...."+ x);};   /* Body of Lambda Expression */
