@@ -8,3 +8,18 @@ Syntax:
       (int x)  /*  Argument List */
         ->     /*  Arrow List */
       { System.out.println("School name is ...."+ x);};   /* Body of Lambda Expression */
+
+      case 1:
+
+        School sc =(x)->   / no need to mention the type of varibale
+            {
+                System.out.println("School name is ...."+ x);
+            };
+
+      case 2 : if we have one variable as the parameter no need to mention ()
+
+           School sc = x->   / no need to mention the type of varibale
+            {
+                System.out.println("School name is ...."+ x);
+            };
+
