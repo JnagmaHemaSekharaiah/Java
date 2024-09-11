@@ -1,4 +1,4 @@
 ->functional Interfcae is a interface contain only one abstarct method.
 ->We need to need to define a interface with "@FunctionalInetrface" annotation to make our interface as FI.
 ->FI are recognized as the 'Simple Abstract Method Interfaes' SAM interface.
-->
+->from Java 8 "Lambda Expression" are used to represent the instance of FI
