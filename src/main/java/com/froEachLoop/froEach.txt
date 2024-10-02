@@ -1,0 +1,53 @@
+ public static void main(String[] args)
+    {
+
+        List<Integer> nums = Arrays.asList(4,5,3,2,7,6,9);
+
+        Consumer<Integer> con = new Consumer <Integer> () {
+           public void accept(Integer n)
+           {
+               System.out.println(n);
+           }
+        };
+        nums.forEach(con);
+
+
+Here Consumer<T>  T -> Type like Integer or String etc.
+Here foreach loop accepts the Consumer. Consumer is a functional interface.
+
+
+Converting Lambda expression
+----------------------------
+ List<Integer> nums = Arrays.asList(4,5,3,2,7,6,9);
+
+        Consumer<Integer> con = new Consumer <Integer> ()
+         {
+            public void accept(Integer n)
+            {
+                System.out.println(n);
+            }
+        };
+        nums.forEach(con);
+
+        Step 1:
+        -------
+        {
+         Consumer<Integer> con = (Integer n) ->
+                    {
+                        System.out.println(n);
+                    }
+
+            nums.forEach(con);
+       }
+
+       Step 2
+       ------
+       Consumer<Integer> con = (n) -> System.out.println(n);
+
+       nums.forEach(con);
+
+
+      Step 3
+       ------
+       nums.forEach((n) -> System.out.println(n));
+
