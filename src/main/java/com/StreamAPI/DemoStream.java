@@ -2,6 +2,7 @@ package com.StreamAPI;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 public class DemoStream
@@ -13,15 +14,15 @@ public class DemoStream
 //        Stream<Integer> s1= s.filter(n -> n%2==0);
 //        Stream<Integer> s2= s1.map(n -> n*2);
 
-       int result= nums.stream().
+       Optional<Integer> x= nums.stream().
                filter(n -> n%2==0).
                map(n->n*2).
-               reduce(0, (c,e)-> c+e);
+               findFirst();
 
        // int result=  s2.reduce(0, (c,e)-> c+e);
 
         System.out.println("******************");
-        System.out.println(result);
+        System.out.println(x.get());
 
         //  s2.forEach(n -> System.out.println(n));
     }

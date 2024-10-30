@@ -15,6 +15,7 @@ interface School
 //        System.out.println("School name....");
 //    }
 //}
+
 public class Student
 {
     public static void main(String[] args)

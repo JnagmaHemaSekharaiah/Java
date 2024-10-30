@@ -23,3 +23,10 @@ Syntax:
                 System.out.println("School name is ...."+ x);
             };
 
+ Lambda expression with return type
+ ------------------------------------
+
+
+
+
+
