@@ -44,7 +44,7 @@ Converting Lambda expression
        ------
        Consumer<Integer> con = (n) -> System.out.println(n);
 
-       nums.forEach(con);
+       nums.forEach(con); /
 
 
       Step 3
