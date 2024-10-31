@@ -1,4 +1,4 @@
-package com.Abstraction.Interface.JDKfeature;
+package com.Abstraction.Interface.JDKfeature.feature1;
 
 public interface API
 {
