@@ -40,7 +40,7 @@ Interface
 2.we can do multiple inheritance
 3.we can loose coupling
 
-In the Interface all methods are public and fields are public, static, final.
+In the Interface all methods are public and fields(variables) are public, static, final.
 
 In the JDK 8 added new feature
 ------------------------------
