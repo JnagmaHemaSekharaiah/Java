@@ -34,3 +34,14 @@ variables->We can't make the abstract.
   that Child class as abstract so that the next level Child class should provide implementation to the remaining abstract method
 	
 
+Interface
+---------
+1.used to achieve total abstraction
+2.we can do multiple inheritance
+3.we can loose coupling
+
+In the Interface all methods are public and fields are public, static, final.
+
+In the JDK 8 added new feature
+------------------------------
+using default keyword we can add method body interface.
