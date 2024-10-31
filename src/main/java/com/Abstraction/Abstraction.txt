@@ -44,5 +44,14 @@ In the Interface all methods are public and fields are public, static, final.
 
 In the JDK 8 added new feature
 ------------------------------
-1.using default keyword we can add method body interface.
+1.using default keyword we can add method body interface. - By doing this without breaking the existing implementation we can add new feature in the interface
 2.We can define the static methods inside the interfaces than can call called independently without an object
+
+JDK 9 new feature
+------------------
+1.Introduced private methods in interfaces.
+
+Types of interfaces
+-------------------
+maker interface
+Functional interface
