@@ -1,0 +1,35 @@
+Access Specifier
+-----------------
+In java they are four access specifiers are there
+
+default
+public
+private
+protected
+
+
+public
+------
+1.The public Access Modifier has the widest scope among all other Access Modifier
+2.Classes, methods, or data members that are declared as public are accessible from everywhere in the program.
+  There is no restriction on the scope of public data members.
+
+default
+--------
+1.Any Class, variable, method not defined with any modifier, there are by defiantly had the 'default'( package-private)
+  access modifier and these are accessible only with in the package
+
+Private Access Modifier
+-----------------------
+1.The methods and variables as declared as the private. These are accessed within the class.
+ ->Any other classes of the same package can not be accessed these methods and variables
+ ->Top Level classes and interfaces can not declare as the private bez
+   =>private means “only visible within the enclosing class”.
+   =>protected means “only visible within the enclosing class and any subclasses”
+
+Protected Access Modifier
+-------------------------
+The methods or the data members declared as the protect are accessible
+1.visible within the enclosing class
+2.With same package
+3.Subclass in the different package
