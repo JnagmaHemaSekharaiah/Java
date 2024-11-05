@@ -42,3 +42,17 @@ Public : A Public method in the Super Class Can only be over ridden public metho
 (iv)Sub class methods should have the Same return type (or Sub type)
 ------------------------------------------------------------------
 This Phenomenon know as the "covariant return type"
+
+(V)We can not Override Constructor
+-----------------------------------
+
+(Vi)Overriding and Exception-Handling
+--------------------------------------
+Rule #1 : IF the Super Class Overriding method can not throwing any exception then subclass method only throws 'Unchecked Exception'
+
+Rule #2 : IF the Super Class Overriding method can throwing any exception then subclass can throw Same exception and also no issue if the subclass
+          Overridden method is not throwing any exception and if subclass throwing parent exception in the Exception Hierarchy will lead compile error
+
+(Vii) Overriding and Abstract method
+------------------------------------
+Abstract methods in an interface or abstract class are meant to be overridden in derived concrete classes otherwise a compile-time error will be thrown.

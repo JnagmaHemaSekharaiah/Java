@@ -3,9 +3,9 @@ package com.Polymorphism.Overriding.Basic;
 public class SubClass extends SuperClass
 {
     @Override
-    public SubClass display()
+    public void display() //Overridding method
     {
-        return new SubClass();
+        System.out.println("I am Subclass");
     }
 
     public static void main(String[] args)
@@ -13,8 +13,8 @@ public class SubClass extends SuperClass
         SubClass obj1;
         SuperClass obj2;
 
-        obj2 = new SuperClass();
-        System.out.println(obj2.display());
+        obj2 = new SubClass();
+        obj2.display();
     }
 
 }

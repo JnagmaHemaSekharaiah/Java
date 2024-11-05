@@ -3,10 +3,10 @@ package com.Polymorphism.Overriding.Basic;
 public class SuperClass
 {
 
-    protected   int a =10;
-    public SuperClass display()
+
+    public void display() //Overridden method
     {
-        return new SuperClass();
+        System.out.println("I am Super Class");
     }
 
 }
