@@ -10,9 +10,8 @@ public class SubClass extends SuperClass
 
     public static void main(String[] args)
     {
-        SubClass obj1;
-        SuperClass obj2;
 
+        SuperClass obj2;
         obj2 = new SubClass();
         obj2.display();
     }
